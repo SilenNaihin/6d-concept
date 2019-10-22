@@ -90,11 +90,12 @@
     margin-left: 5%;
 }
 #bookicon{
-    background-image: url('/Media/bookinfo.svg');
+    background-image: url('.\Media\bookinfo.svg');
     width: 21px;
     height: 20px;
     margin-top: 8%;
     margin-left: 50%;
+    background-color: antiquewhite;
 }
 #middleboxlineright{
     width: 90%;
@@ -161,22 +162,22 @@
     margin-top: 3%;
 }
 .facebookupdate{
-    background-image: url('/Media/facebook.svg');
+    background-image: url('Media\facebook.svg');
     width: 5%;
     padding-bottom: 5%;
 }
 .linkedinupdate{
-    background-image: url('/Media/linkedin.svg');
+    background-image: url('Media\linkedin.svg');
     width: 5%;
     padding-bottom: 5%;
 }
 .twitterupdate{
-    background-image: url('/Media/twitter.svg');
+    background-image: url('Media\twitter.svg');
     width: 5%;
     padding-bottom: 5%;
 }
 .instagramupdate{
-    background-image: url('/Media/instagram.svg');
+    background-image: url('Media\instagram.svg');
     width: 5%;
     padding-bottom: 5%;
 }
@@ -209,20 +210,20 @@
     margin-left: 20%;
 }
 #facebookicon{
-    background-image: url('/Media/facebook.svg');
+    background-image: url('Media\facebook.svg');
 }
 #linkedinicon{
-    background-image: url('/Media/linkedin.svg');
+    background-image: url('Media\linkedin.svg');
     stroke: #000000;
     stroke-width: 5px;
     stroke-linecap: round;
     stroke-linejoin: round;
 }
 #twittericon{
-    background-image: url('/Media/twitter.svg');
+    background-image: url('Media\twitter.svg');
 }
 #instagramicon{
-    background-image: url('/Media/instagram.svg');
+    background-image: url('Media\instagram.svg');
 }
 /* Reminder Section */
 #remindersandpriorityandtype{

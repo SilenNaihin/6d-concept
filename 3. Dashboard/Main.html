@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    
+
+    <link rel="stylesheet" type='text/css' href="./Main.css">
+    <link rel="stylesheet" type='text/css' href="./Leftbar.css">
+    <link rel="stylesheet" type='text/css' href="./Middlebar.css">
+    <link rel="stylesheet" type='text/css' href="./Rightbar.css">
+    <link rel="stylesheet" type='text/css' href="./Floating.css">
+
+    <link type="text/javascript" src="Main.js">
+    <link rel="stylesheet" href="/Simple_scrollbar/simple_scrollbar.css">
+    <script src="/Simple_scrollbar/simple_scrollbar.js"></script>
+    <title>6Degrees</title>
+</head>
+<body id='body'>
+    <!-- Leftbar -->
+    <div id='leftbar' class='animate'>
+        <div class='personalprofilepicture'></div>
+        <h3 class='personalname'>Silen Naihin</h3>
+        <div class='home'>
+            <div class="leftbarimage" >
+                    <svg style="fill: #707070"; viewBox="0 0 32 32" viewBox="0 0 32 32" aria-hidden="true">
+                        <path d="M27 18.039L16 9.501 5 18.039V14.56l11-8.54 11 8.538v3.481zm-2.75-.31v8.251h-5.5v-5.5h-5.5v5.5h-5.5v-8.25L16 11.543l8.25 6.186z"/>
+                    </svg>
+            </div>
+            <h3 class="leftbartext">DASHBOARD</h3>
+        </div>
+        <div class='upgrade'>
+            <div id='upgradeimage' class="leftbarimage">
+                    <svg style="fill: #707070"; viewBox="0 0 32 32">
+                        <path d="M8 20.695l7.997-11.39L24 20.695z"/>
+                    </svg>
+            </div>
+            <h3 class="leftbartext">UPGRADE</h3>
+        </div>
+        <div class='setting'>
+            <div id='settingsimage' class="leftbarimage">
+                    <svg style="fill: #707070"; viewBox="0 0 32 32">
+                        <path d="M24 13.616v-3.232c-1.651-.587-2.694-.752-3.219-2.019v-.001c-.527-1.271.1-2.134.847-3.707l-2.285-2.285c-1.561.742-2.433 1.375-3.707.847h-.001c-1.269-.526-1.435-1.576-2.019-3.219h-3.232c-.582 1.635-.749 2.692-2.019 3.219h-.001c-1.271.528-2.132-.098-3.707-.847l-2.285 2.285c.745 1.568 1.375 2.434.847 3.707-.527 1.271-1.584 1.438-3.219 2.02v3.232c1.632.58 2.692.749 3.219 2.019.53 1.282-.114 2.166-.847 3.707l2.285 2.286c1.562-.743 2.434-1.375 3.707-.847h.001c1.27.526 1.436 1.579 2.019 3.219h3.232c.582-1.636.75-2.69 2.027-3.222h.001c1.262-.524 2.12.101 3.698.851l2.285-2.286c-.744-1.563-1.375-2.433-.848-3.706.527-1.271 1.588-1.44 3.221-2.021zm-12 2.384c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z"/>
+                    </svg>
+            </div>
+            <h3 class="leftbartext">SETTINGS</h3>
+        </div>
+    </div>
+    <!-- Middlebar -->
+    <div id='middlebar'>
+        <h1 id="peopletitle">People</h1>
+        <div id="searchbar">
+            <div id="searchicon">
+                    <svg style="fill:#898989" viewBox="0 0 32 32">
+                        <path d="M27 24.57l-5.647-5.648a8.895 8.895 0 0 0 1.522-4.984C22.875 9.01 18.867 5 13.938 5 9.01 5 5 9.01 5 13.938c0 4.929 4.01 8.938 8.938 8.938a8.887 8.887 0 0 0 4.984-1.522L24.568 27 27 24.57zm-13.062-4.445a6.194 6.194 0 0 1-6.188-6.188 6.195 6.195 0 0 1 6.188-6.188 6.195 6.195 0 0 1 6.188 6.188 6.195 6.195 0 0 1-6.188 6.188z"/>
+                    </svg>
+            </div>
+            <input type="text" id='searchinput' placeholder="Search">
+            <div id="sortby">Sort By</div>
+            <div id="sortbyarrow">
+                <svg style="fill:#898989" viewBox="0 0 32 32">
+                    <path d="M16.003 18.626l7.081-7.081L25 13.46l-8.997 8.998-9.003-9 1.917-1.916z"/>
+                </svg>
+            </div>
+        </div>
+        <div id="scrollbar" ss-container>
+            <div class="personside">
+                <div class="profilepictures"></div>
+                <div class="nametext">Martha Doe</div>
+                <div class="profilereminders">29 Days</div>
+                <div class="profiletag">Mentor
+                    <svg class='healthbarteardrop' viewbox="0 0 26 42">
+                        <path fill="rgba(196, 196, 0, 0.6)" stroke="#323232" stroke-width="1" 
+                            d="M15 3
+                                Q16.5 6.8 25 18
+                                A12.8 12.8 0 1 1 5 18
+                                Q13.5 6.8 15 3z" />
+                    </svg>
+                </div>
+            </div>  
+            <div class="personside">
+                <div class="profilepictures"></div>
+                <div class="nametext">Martha Doe</div>
+                <div class="profilereminders">29 Days</div>
+                <div class="profiletag">Mentor
+                    <svg class='healthbarteardrop' viewbox="0 0 26 42">
+                        <path fill="rgba(196, 196, 0, 0.6)" stroke="#323232" stroke-width="1" 
+                            d="M15 3
+                                Q16.5 6.8 25 18
+                                A12.8 12.8 0 1 1 5 18
+                                Q13.5 6.8 15 3z" />
+                    </svg>
+                </div>
+            </div>   
+            <div class="personside">
+                <div class="profilepictures"></div>
+                <div class="nametext">Martha Doe</div>
+                <div class="profilereminders">29 Days</div>
+                <div class="profiletag">Mentor
+                    <svg class='healthbarteardrop' viewbox="0 0 26 42">
+                        <path fill="rgba(196, 196, 0, 0.6)" stroke="#323232" stroke-width="1" 
+                            d="M15 3
+                                Q16.5 6.8 25 18
+                                A12.8 12.8 0 1 1 5 18
+                                Q13.5 6.8 15 3z" />
+                    </svg>
+                      
+                </div>
+            </div> 
+            <div class="personside selectedpersonside">
+                <div class="profilepictures selectedprofilepic"></div>
+                <div class="nametext">Martha Doe 4</div>
+                <div class="profilereminders selectedreminders">26 Days</div>
+                <div class="profiletag selectedpersontag">Mentor
+                    <svg class='healthbarteardrop' viewbox="0 0 26 42">
+                        <path fill="rgba(196, 196, 0, 0.6)" stroke="#323232" stroke-width="1" 
+                            d="M15 3
+                                Q16.5 6.8 25 18
+                                A12.8 12.8 0 1 1 5 18
+                                Q13.5 6.8 15 3z" />
+                    </svg>
+                </div>
+            </div>   
+            <div class="personside">
+                <div class="profilepictures"></div>
+                <div class="nametext">Martha Doe</div>
+                <div class="profilereminders">29 Days</div>
+                <div class="profiletag">Mentor
+                    <svg class='healthbarteardrop' viewbox="0 0 26 42">
+                        <path fill="rgba(196, 196, 0, 0.6)" stroke="#323232" stroke-width="1" 
+                            d="M15 3
+                                Q16.5 6.8 25 18
+                                A12.8 12.8 0 1 1 5 18
+                                Q13.5 6.8 15 3z" />
+                    </svg>
+                </div>
+            </div>  
+            <div class="personside">
+                <div class="profilepictures"></div>
+                <div class="nametext">Martha Doe</div>
+                <div class="profilereminders">29 Days</div>
+                <div class="profiletag">Mentor
+                    <svg class='healthbarteardrop' viewbox="0 0 26 42">
+                        <path fill="rgba(196, 196, 0, 0.6)" stroke="#323232" stroke-width="1" d="M15 3 Q16.5 6.8 25 18 A12.8 12.8 0 1 1 5 18 Q13.5 6.8 15 3z" />
+                    </svg>
+                </div>
+            </div>   
+            <div class="personside">
+                <div class="profilepictures"></div>
+                <div class="nametext">Martha Doe</div>
+                <div class="profilereminders">29 Days</div>
+                <div class="profiletag">Mentor
+                    <svg class='healthbarteardrop' viewbox="0 0 26 42">
+                        <path fill="rgba(196, 196, 0, 0.6)" stroke="#323232" stroke-width="1" 
+                            d="M15 3
+                                Q16.5 6.8 25 18
+                                A12.8 12.8 0 1 1 5 18
+                                Q13.5 6.8 15 3z" />
+                    </svg>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- Rightbar -->
+    <div id='rightbar'>
+        <div id="rightbarbackgroundrectangle">
+            <div id="topbarright">
+                <div class="innerpersonview"></div>
+                <div class="innerpersontext">Martha Doe 4</div>
+                <div class="nextreminder">26 Days</div>
+                <svg class='healthbarinner' viewbox="0 0 26 42">
+                    <path fill="rgba(140, 0, 0, 0.3)" stroke="#323232" stroke-width="0.5" 
+                        d="M15 3
+                            Q16.5 6.8 25 18
+                            A12.8 12.8 0 1 1 5 18
+                            Q13.5 6.8 15 3z" />
+                </svg>  
+                <div id="boxsectionright">
+                    <div id="leftsidebox" class="boxrightbar">
+                        <div id="topsectionboxright">
+                            <div class='titletext' id="toptextboxright">Basic Info</div>
+                            <div id="bookicon"></div>
+                        </div>
+                        <div id="middleboxlineright"></div>
+                        <div id="bottomsectionboxright">
+                            <div id="selectiontextbottombarright" class='regulartitletext'>Name</div>
+                            <div id="arrownameright">
+                                <svg style="fill:#bfbfbf" viewBox="0 0 32 32">
+                                    <path d="M16.003 18.626l7.081-7.081L25 13.46l-8.997 8.998-9.003-9 1.917-1.916z"/>
+                                </svg>
+                            </div>
+                            <div id="textforrightsidebox">Martha Doe</div>
+                        </div>
+                    </div>
+                    <div id="rightsidebox" class="boxrightbar">
+                        <div class="titletext" id="rightcontentboxtitle">Updates</div>
+                        <div id="rightboxcontent" ss-container>
+                            <div class="updates">
+                                <div class="facebookupdate"></div>
+                                <div class="updatetext">Martha Doe 4 Is Now Dating Bob Doe</div>
+                            </div>
+                            <div class="updates">
+                                <div class="instagramupdate"></div>
+                                <div class="updatetext">New post: "Loved my time in Hawaii! So many amazing sights...</div>
+                            </div>
+                            <div class="updates">
+                                <div class="linkedinupdate"></div>
+                                <div class="updatetext">Bob Doe has been promoted to the rank of "manager"</div>
+                            </div>
+                            <div class="updates">
+                                <div class="twitterupdate"></div>
+                                <div class="updatetext">"When launching my product, the #1 mistake I made was...</div>
+                            </div>
+                            <div class="updates">
+                                <div class="facebookupdate"></div>
+                                <div class="updatetext">Change Status: "Who even uses this platform anymore?"</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="remindersandpriorityandtype">
+                    <div id="mentorandprioritydiv">
+                        <div class="mentorandpriorityright">
+                            <div class="mentorprioritytext">Mentor</div>
+                        </div>
+                        <div class="mentorandpriorityleft">
+                            <div class="mentorprioritytext">High Priority</div>
+                        </div>
+                    </div>
+                    <div id="reminderstextdiv">
+                        <div id="reminderstext">Reminder set on October 23rd to call Bob Doe.</div>
+                    </div>
+                    <div id="setreminderbuttondiv">
+                        <div id="reminderbutton">
+                            <div id="textinnerreminder">Set Reminder</div>
+                            <div id="reminderbellright">
+                                <svg xmlns="http://www.w3.org/2000/svg" style='fill:#f8f8f8' viewBox="0 0 535.5 535.5">
+                                    <g id="notifications-on">
+                                        <path d="M142.8,53.55l-35.7-35.7C45.9,63.75,5.1,135.15,0,216.75h51C56.1,147.9,89.25,89.25,142.8,53.55z M484.5,216.75h51
+                                            c-5.1-81.6-43.35-153-104.55-198.9l-35.7,35.7C446.25,89.25,479.4,147.9,484.5,216.75z M433.5,229.5
+                                            c0-79.05-53.55-142.8-127.5-160.65V51c0-20.4-17.85-38.25-38.25-38.25c-20.4,0-38.25,17.85-38.25,38.25v17.85
+                                            C155.55,86.7,102,150.45,102,229.5v140.25l-51,51v25.5h433.5v-25.5l-51-51V229.5z M267.75,522.75c2.55,0,7.65,0,10.2,0
+                                            c17.85-2.55,30.6-15.3,35.7-30.6c2.55-5.101,5.1-12.75,5.1-20.4h-102C216.75,499.8,239.7,522.75,267.75,522.75z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="timelineright">
+                    <!-- Top Section -->
+                    <div id="topsectiontimeline">
+                        <div id="circle1text">
+                            <div class="timelinetoptext">12 Months</div>
+                            <div class="timelinebottomtext">Call</div>
+                        </div>
+                        <div id="circle3text">
+                            <div class="timelinetoptext">Tomorrow</div>
+                            <div class="timelinebottomtext">Call</div>
+                        </div>
+                    </div>
+                    <!-- Middle Section -->
+                    <div id="timelinemiddle">
+                        <div id="timelinecircle1" class="timelinecircles"></div>
+                        <div id="timelinecircle2" class="timelinecircles"></div>
+                        <div id="timelinecircle3" class="timelinecircles"></div>
+                    </div>
+                    <!-- Bottom Section -->
+                    <div id="bottomsectiontimeline">
+                        <div id="circle2text">
+                            <div class="timelinebottomtext">Follow Up Email</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="arrowbottomright">
+                    <svg style="fill:#bfbfbf" viewBox="0 0 32 32">
+                        <path d="M16.003 18.626l7.081-7.081L25 13.46l-8.997 8.998-9.003-9 1.917-1.916z"/>
+                    </svg>
+                </div>
+            </div>
+            <div id="socialmediaicons">
+                <div id="facebookicon" class="socialmediaicon"></div>
+                <div id="linkedinicon" class="socialmediaicon"></div>
+                <div id="twittericon" class="socialmediaicon1"></div>
+                <div id="instagramicon" class="socialmediaicon1"></div>
+            </div>
+        </div>
+        <div id="ellipse"></div>
+        
+        
+
+    </div>
+    <!-- Floating -->
+    <div id='upcoming'>
+        <div id='upcomingtext'>Upcoming</div>
+        <div id="upcomingarrow">
+            <svg style="fill:#bfbfbf" viewBox="0 0 32 32">
+                <path d="M16.003 18.626l7.081-7.081L25 13.46l-8.997 8.998-9.003-9 1.917-1.916z"/>
+            </svg>
+        </div>
+    </div>
+    <div id="importbox">
+        <div id="importtext">Import</div> 
+        <div id="importplus">
+            <svg style="fill:#E7E7E7" width="20" height="20" viewBox="0 0 24 24">
+                <path d="M24 10h-10v-10h-2v10h-10v2h10v10h2v-10h10z"/>
+            </svg>
+        </div>
+    </div>
+</body>
+</html>

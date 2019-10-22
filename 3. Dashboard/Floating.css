@@ -1,0 +1,50 @@
+#upcoming{
+    width: 40%;
+    height: 50px;
+    background-color: #F8F8F8;
+    padding: 0px;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    display: flex;
+    border-radius: 50px;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.19);
+    z-index: 2;
+}
+#upcomingtext{
+    margin-left: 5%;
+    font-weight: 400;
+    margin-top: 1%;
+    font-size: 25px; 
+    color: #707070;
+}
+#upcomingarrow{
+    margin-left: 65%;
+    margin-right: 0px;
+    width: 50px;
+    height: 50px;
+}
+#importbox{
+    height: 50px;
+    position: absolute;
+    width: 10%;
+    border-radius: 5px;
+    margin-left: 89%;
+    margin-top: 20px;
+    background-image: linear-gradient(103deg, #6a82f5 0%, #3752d9 100%);
+    display: flex;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.19);
+}
+#importtext{
+    font-weight: 400;
+    color: #fdfdfd;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-top: 3.8%;
+}
+#importplus{
+    margin-top: 10%;
+    margin-left: 12%;
+}

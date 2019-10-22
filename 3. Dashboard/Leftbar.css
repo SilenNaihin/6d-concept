@@ -1,0 +1,53 @@
+#leftbar{
+    background-color: rgba(76, 99, 217, 0.25);
+    height: 100vh;
+    width: 15%;
+}
+.personalprofilepicture{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 40%;
+    margin-top: 15%;
+    border-radius: 200px;
+    background-image: url('Media/Left Bar/Profile Picture/guy.jpg');
+    background-size:100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.personalname{
+    margin-top:5%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #323232;
+}
+.leftbartext{
+    display: inline-block;
+    margin-left: 25%;
+    /* border-left: 20px solid transparent; */
+    color: #707070;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.leftbarimage{
+    margin-left: 10%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.setting{
+    width: 100%;
+    margin-top: 5px;
+}
+#settingsimage{
+    margin-left: 12.5%;
+}
+#upgradeimage{
+    height: 27.5px;
+    width: 27.5px;
+}
+.upgrade{
+    margin-top: 160%;
+}

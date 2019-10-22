@@ -1,0 +1,31 @@
+/* My Chrome Tab is 1536 x 721 */
+.body{
+    color: rgb(252, 252, 252);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+/* Background */
+.oval{
+    width: 3072px;
+    height: 200px;
+    background: #4C64D9;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 40px;   
+    margin-left: -768px; 
+}
+.rectangle{
+    width: 1536;
+    height: 500px;
+    background: #4C64D9;
+}
+.smallbubble{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #333333;
+}
+.bigbubble{
+
+}

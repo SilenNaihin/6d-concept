@@ -5,12 +5,14 @@
     padding: 0px;
     display: flex;
     font-family: 'Open Sans', sans-serif;
+    font-size: 100%; /* Default size is 16. Everything will based off 16 */
 }
 
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
+    #rightbar { width:67%; }
+    #middlebar { width:30%; margin-left:3%;}
+    #leftbar {}
 }
 
 /* Media Queries: Tabled Portrait */
@@ -18,6 +20,7 @@
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
+
 
 /* Add this to background images: */
     /* overflow:hidden;

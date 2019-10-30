@@ -12,6 +12,7 @@
     border-radius: 200px;
     background-image: url('Media/Left Bar/Profile Picture/guy.jpg');
     background-size:100%;
+    background-repeat: no-repeat;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 .personalname{
